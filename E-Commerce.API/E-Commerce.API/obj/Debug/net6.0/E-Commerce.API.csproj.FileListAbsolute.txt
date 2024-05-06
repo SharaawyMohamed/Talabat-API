@@ -1,0 +1,256 @@
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\appsettings.Development.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\appsettings.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.exe
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.deps.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.runtimeconfig.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.csproj.AssemblyReference.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.AssemblyInfoInputs.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.AssemblyInfo.cs
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.csproj.CoreCompileInputs.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.MvcApplicationPartsAssemblyInfo.cs
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.MvcApplicationPartsAssemblyInfo.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.build.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.development.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.E-Commerce.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.build.E-Commerce.API.props
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.E-Commerce.API.props
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.E-Commerce.API.props
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.pack.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\scopedcss\bundle\E-Commerce.API.styles.css
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commer.7DAE3097.Up2Date
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\refint\E-Commerce.API.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.genruntimeconfig.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\ref\E-Commerce.API.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Core.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Core.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Humanizer.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\appsettings.Development.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\appsettings.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.exe
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.deps.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.runtimeconfig.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Humanizer.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Core.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Core.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.csproj.AssemblyReference.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.AssemblyInfoInputs.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.AssemblyInfo.cs
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.csproj.CoreCompileInputs.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.MvcApplicationPartsAssemblyInfo.cs
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.MvcApplicationPartsAssemblyInfo.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.build.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.development.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.E-Commerce.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.build.E-Commerce.API.props
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.E-Commerce.API.props
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.E-Commerce.API.props
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.pack.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\scopedcss\bundle\E-Commerce.API.styles.css
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commer.7DAE3097.Up2Date
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\refint\E-Commerce.API.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.genruntimeconfig.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\ref\E-Commerce.API.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\AutoMapper.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.staticwebassets.runtime.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Services.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Services.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\StackExchange.Redis.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Scrutor.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Stripe.net.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\appsettings.Development.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\appsettings.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.staticwebassets.runtime.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.exe
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.deps.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.runtimeconfig.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.API.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\AutoMapper.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Humanizer.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Scrutor.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\StackExchange.Redis.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Stripe.net.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Core.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Services.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Services.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Core.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.csproj.AssemblyReference.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.AssemblyInfoInputs.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.AssemblyInfo.cs
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.csproj.CoreCompileInputs.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.MvcApplicationPartsAssemblyInfo.cs
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.MvcApplicationPartsAssemblyInfo.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.build.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.development.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.E-Commerce.API.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.build.E-Commerce.API.props
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.E-Commerce.API.props
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.E-Commerce.API.props
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\staticwebassets.pack.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\scopedcss\bundle\E-Commerce.API.styles.css
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commer.7DAE3097.Up2Date
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\refint\E-Commerce.API.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.genruntimeconfig.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\ref\E-Commerce.API.dll

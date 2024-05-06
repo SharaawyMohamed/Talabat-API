@@ -1,0 +1,51 @@
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.deps.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.runtimeconfig.json
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Core.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Core.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.csproj.AssemblyReference.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.AssemblyInfoInputs.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.AssemblyInfo.cs
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.csproj.CoreCompileInputs.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commer.F86D06AD.Up2Date
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\refint\E-Commerce.Repository.dll
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.genruntimeconfig.cache
+F:\ROUTE\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\ref\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.deps.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.runtimeconfig.json
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Core.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Core.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.csproj.AssemblyReference.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.AssemblyInfoInputs.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.AssemblyInfo.cs
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.csproj.CoreCompileInputs.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commer.F86D06AD.Up2Date
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\refint\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.genruntimeconfig.cache
+F:\ROUTE\Aliaa\08 API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\ref\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.deps.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.runtimeconfig.json
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Core.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\bin\Debug\net6.0\E-Commerce.Core.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.csproj.AssemblyReference.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.AssemblyInfoInputs.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.AssemblyInfo.cs
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.csproj.CoreCompileInputs.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commer.F86D06AD.Up2Date
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\refint\E-Commerce.Repository.dll
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.pdb
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\E-Commerce.Repository.genruntimeconfig.cache
+F:\ROUTE\Aliaa\API\E-Commerce.API\E-Commerce.Repository\obj\Debug\net6.0\ref\E-Commerce.Repository.dll
