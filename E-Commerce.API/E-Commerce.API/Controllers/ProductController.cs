@@ -28,11 +28,11 @@ namespace E_Commerce.API.Controllers
 			mapper = _mapper;
 		}
 		
-		[HttpGet]
+		[HttpGet("Products")]
 		[Cash(50)]
 		[ProducesResponseType(typeof(ProductToReturnDTO), statusCode: 200)]
 		[ProducesResponseType(typeof(ApiResponce), statusCode: 400)]
-		// we use from query because front end cant count the boject in request body
+
 		public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetAllProducts([FromQuery] ProductSpecParameter parameters)
 		{
 			var Spec = new ProductWithBrandTypeSpec(parameters);

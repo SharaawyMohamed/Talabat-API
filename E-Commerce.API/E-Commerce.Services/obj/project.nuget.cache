@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3NW4Ju51LxBzDhxUGivgDsWt2sM6uU2UEWysZTJR8QelL9MNsUI76p6LDTowLm3YI1G/VS/SNgBPrl0gWoekw==",
+  "dgSpecHash": "BX6k4Vfl/suqD7aEHjDGnOxZhUfgzYWpREsG7BwLBh8eE32pqbQp6hpaM8d/LvBD0A6nwoFWNtlL+YkvsiIQ/g==",
   "success": true,
-  "projectFilePath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Services\\E-Commerce.Services.csproj",
+  "projectFilePath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Services\\E-Commerce.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

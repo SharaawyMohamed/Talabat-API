@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj": {}
+    "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj": {}
   },
   "projects": {
-    "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj": {
+    "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj",
+        "projectUniqueName": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj",
         "projectName": "E-Commerce.Core",
-        "projectPath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj",
+        "projectPath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\obj\\",
+        "outputPath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

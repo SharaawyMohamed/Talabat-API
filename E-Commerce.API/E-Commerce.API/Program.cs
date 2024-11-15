@@ -24,19 +24,14 @@ namespace E_Commerce.API
 
 			#region Servieces
 
-			// creat dependency injection 
 
 			builder.Services.AddApplicationServices(builder.Configuration);
 			builder.Services.AddIdentityService(builder.Configuration);
 
-			// Add services to the container.
 			builder.Services.AddControllers();
-			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 
-			  builder.Services.AddSwaggerService();
-			//builder.Services.AddEndpointsApiExplorer();
-			//builder.Services.AddSwaggerGen();
+			builder.Services.AddSwaggerService();
 
 
 			#endregion
@@ -47,7 +42,8 @@ namespace E_Commerce.API
 
 			await DbInitililzer.InitilizeDbAsync(app);
 
-			#endregion			#region PipeLines
+			#endregion
+
 			// Configure the HTTP request pipeline.
 			if (app.Environment.IsDevelopment())
 			{

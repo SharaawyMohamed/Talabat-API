@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X/2Fr6vUL2KHK2J2P3wo+D5JVcYMJ0OB6IdPa49LZsNzWDtoRt63dPwYuGaoN1bM0mSUswUVWUX6lXz576x1MA==",
+  "dgSpecHash": "9F9gHJZNX80gvpYQ/4IF46xQ952P8yEcbEjfPwjwO2lQbWjt0aVZVt9TXpMUdNucuA86OPndiBzX8E09XpQNBw==",
   "success": true,
-  "projectFilePath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.API\\E-Commerce.API.csproj",
+  "projectFilePath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.API\\E-Commerce.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

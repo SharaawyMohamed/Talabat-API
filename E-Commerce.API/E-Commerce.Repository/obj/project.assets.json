@@ -2358,11 +2358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
+      "projectUniqueName": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
       "projectName": "E-Commerce.Repository",
-      "projectPath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
+      "projectPath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Repository\\obj\\",
+      "outputPath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2379,8 +2379,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj": {
-              "projectPath": "F:\\ROUTE\\Aliaa\\API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj"
+            "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj": {
+              "projectPath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Core\\E-Commerce.Core.csproj"
             }
           }
         }

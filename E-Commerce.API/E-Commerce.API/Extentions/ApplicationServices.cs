@@ -16,7 +16,7 @@ using StackExchange.Redis;
 namespace E_Commerce.API.Extentions
 {
     public static class ApplicationServices
-	{                // this : it's mean that this method would be Extendtion Method 
+	{                
 		public static IServiceCollection AddApplicationServices(this IServiceCollection Services,IConfiguration configuration)
 		{
 			Services.AddScoped<IProductServices, ProductServices>();
@@ -32,9 +32,10 @@ namespace E_Commerce.API.Extentions
 
 			Services.AddSingleton<IConnectionMultiplexer>(option =>
 			{
-				var connection =ConfigurationOptions.Parse(configuration.GetConnectionString("RedisDefault"));
-				return ConnectionMultiplexer.Connect(connection);
+				var config = ConfigurationOptions.Parse(configuration.GetConnectionString("RedisConnection"));
+				return ConnectionMultiplexer.Connect(config);
 			});
+
 			Services.AddDbContext<ECommerceContext>(option =>
 			{
 				option.UseSqlServer(configuration.GetConnectionString("Default"));
@@ -44,8 +45,8 @@ namespace E_Commerce.API.Extentions
 			Services.Configure<ApiBehaviorOptions>(options =>
 			{
 				options.InvalidModelStateResponseFactory = (actioncontext) => {
-					var errors = actioncontext.ModelState.Where(p => p.Value.Errors.Count() > 0)
-					.SelectMany(E => E.Value.Errors)
+					var errors = actioncontext.ModelState.Where(p => p.Value!.Errors.Count() > 0)
+					.SelectMany(E => E.Value!.Errors)
 					.Select(E=>E.ErrorMessage).ToList();
 					var validerrorresponse = new ApiValidationResponceError()
 					{
@@ -54,16 +55,9 @@ namespace E_Commerce.API.Extentions
 					return new BadRequestObjectResult(validerrorresponse);
 				};
 			});
-			//builder.Services.AddScoped<IGenericRepository<Product>, GenericRepository<Product>>();
-			//builder.Services.AddScoped<IGenericRepository<ProductBrand>, GenericRepository<ProductBrand>>();
-			//builder.Services.AddScoped<IGenericRepository<ProductType>, GenericRepository<ProductType>>();
-
-
-
-			// Services for AutoMapper
+			
 			Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
-			// Error Validation Services
 			Services.Configure<ApiBehaviorOptions>(option =>
 			{
 				option.InvalidModelStateResponseFactory = (ActionContext) =>
