@@ -16,6 +16,8 @@ namespace E_Commerce.Core.Models.Product
         public decimal Price { get; set; }
         public string PictureUrl { get; set; }
 
+        public int quantity { get; set; } = 1;
+
         [ForeignKey("ProductType")]
         public int? TypeId { get; set; }
         public ProductType ProductType { get; set; }

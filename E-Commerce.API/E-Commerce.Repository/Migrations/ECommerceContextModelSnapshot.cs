@@ -138,6 +138,9 @@ namespace E_Commerce.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
+                    b.Property<int>("quantity")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("BrandId");

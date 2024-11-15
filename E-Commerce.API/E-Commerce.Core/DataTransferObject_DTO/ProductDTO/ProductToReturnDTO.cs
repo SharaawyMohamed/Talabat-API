@@ -9,7 +9,8 @@ namespace E_Commerce.API.DataTransferObject_DTO.ProductDTO
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public string PictureUrl { get; set; }
+        public int quantity { get;set; }
+		public string PictureUrl { get; set; }
         public int TypeId { get; set; }
         public string ProductType { get; set; }
         public int BrandId { get; set; }

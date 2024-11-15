@@ -14,38 +14,34 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace E_Commerce.API.Controllers
 {
-	//[Authorize]
 	public class ProductController : APIBaseController
 	{
-		private readonly IUnitOfWork unitofwork;
-		private readonly IProductServices productserice;
-		private readonly IMapper mapper;
-		public ProductController(IUnitOfWork _unitofwork, IProductServices _productserice, IMapper _mapper)
+		private readonly IUnitOfWork _unitOfWork;
+		private readonly IMapper _mapper;
+		public ProductController(IUnitOfWork unitOfWork, IMapper mapper)
 		{
 
-			unitofwork = _unitofwork;
-			productserice = _productserice;
-			mapper = _mapper;
+			_unitOfWork = unitOfWork;
+			_mapper = mapper;
 		}
-		
 		[HttpGet("Products")]
 		[Cash(50)]
 		[ProducesResponseType(typeof(ProductToReturnDTO), statusCode: 200)]
 		[ProducesResponseType(typeof(ApiResponce), statusCode: 400)]
-
 		public async Task<ActionResult<IReadOnlyList<ProductToReturnDTO>>> GetAllProducts([FromQuery] ProductSpecParameter parameters)
 		{
+
 			var Spec = new ProductWithBrandTypeSpec(parameters);
-			var Products = await unitofwork.Repository<Product, int>().GetAllWithSpecAsync(Spec);
+			var Products = await _unitOfWork.Repository<Product, int>().GetAllWithSpecAsync(Spec);
 			if (Products is null) return NotFound(new ApiResponce(404));
-			var MapedProducts = mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(Products);
+			var MapedProducts = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(Products);
 
 			var CountSpec = new ProductWithFiltiratonForCountAsync(parameters);
 			var ReturnObject = new Pagination<ProductToReturnDTO>()
 			{
 				PageIndex = parameters.PageIndex,
 				PageSize = parameters.PageSize,
-				Count = await unitofwork.Repository<Product, int>().CountNumperWithSpec(CountSpec),
+				Count = await _unitOfWork.Repository<Product, int>().CountNumperWithSpec(CountSpec),
 				Data = MapedProducts,
 			};
 			return Ok(ReturnObject);
@@ -53,27 +49,24 @@ namespace E_Commerce.API.Controllers
 		}
 
 		[HttpGet("{Id}")]
-		[ProducesResponseType(typeof(ProductToReturnDTO), StatusCodes.Status200OK)]// when we found response then the response type will be of {ProductToReturnDTO}
-		[ProducesResponseType(typeof(ApiResponce), StatusCodes.Status404NotFound)]// when we Not found response then the response type will be of {ApiResponce}
+		[ProducesResponseType(typeof(ProductToReturnDTO), StatusCodes.Status200OK)]
+		[ProducesResponseType(typeof(ApiResponce), StatusCodes.Status404NotFound)]
 		public async Task<ActionResult<ProductToReturnDTO>> GetProductById(int Id)
 		{
 			var Spec = new ProductWithBrandTypeSpec(Id);
-			var Product = await unitofwork.Repository<Product, int>().GetByIdWithSpecAsync(Spec);
+			var Product = await _unitOfWork.Repository<Product, int>().GetByIdWithSpecAsync(Spec);
 			if (Product is null) return NotFound(new ApiResponce(404));
-			var MapedProduct = mapper.Map<Product, ProductToReturnDTO>(Product);
+			var MapedProduct = _mapper.Map<Product, ProductToReturnDTO>(Product);
 			return Ok(MapedProduct);
 		}
 
-		// Get All Types
-		[HttpGet("Types")]
-		public async Task<ActionResult<IReadOnlyList<ProductType>>> GetAllTypes()
-			=> Ok(await unitofwork.Repository<ProductType, int>().GetAllAsync());
+		[HttpGet("Categories")]
+		public async Task<ActionResult<IReadOnlyList<ProductType>>> GetAllCategories()
+			=> Ok(await _unitOfWork.Repository<ProductType, int>().GetAllAsync());
 
-
-		// Get All Brands
 		[HttpGet("Brands")]
 		public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetAllBrands()
-			=> Ok(await unitofwork.Repository<ProductBrand, int>().GetAllAsync());
+			=> Ok(await _unitOfWork.Repository<ProductBrand, int>().GetAllAsync());
 
 	}
 }

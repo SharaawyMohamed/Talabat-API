@@ -16,6 +16,7 @@ namespace E_Commerce.API.Helper.Profiles
             CreateMap<ProductType, BrandTypeDTO>();
 
             CreateMap<Product, ProductToReturnDTO>()
+                .ForMember(dest=>dest.quantity,O=>O.MapFrom(src=>src.quantity))
                 .ForMember(D => D.ProductBrand, O => O.MapFrom(S => S.ProductBrand.Name))
                 .ForMember(D => D.ProductType, O => O.MapFrom(S => S.ProductType.Name))
                 .ForMember(D => D.PictureUrl, O => O.MapFrom<ProductPicturUrlResolver>());

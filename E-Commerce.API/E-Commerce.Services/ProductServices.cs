@@ -33,7 +33,7 @@ namespace E_Commerce.Services
 			return mapper.Map<Product, ProductToReturnDTO>(product);
 		}
 
-		public async Task<IEnumerable<BrandTypeDTO>> GetAllTypesAsync()
+		public async Task<IEnumerable<BrandTypeDTO>> GetAllCategoriesAsync()
 		{
 			var types=await unitofwork.Repository<ProductType,int>().GetAllAsync();
 			return mapper.Map<IEnumerable<ProductType>, IEnumerable<BrandTypeDTO>>(types);

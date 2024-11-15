@@ -360,6 +360,26 @@
   },
   {
     "ContainingType": "E_Commerce.API.Controllers.ProductController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Product/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[E_Commerce.Core.Models.Product.ProductType, E-Commerce.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "E_Commerce.API.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Product/Products",
     "HttpMethod": "GET",
@@ -415,26 +435,6 @@
           "text/json"
         ],
         "StatusCode": 400
-      }
-    ]
-  },
-  {
-    "ContainingType": "E_Commerce.API.Controllers.ProductController",
-    "Method": "GetAllTypes",
-    "RelativePath": "api/Product/Types",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[E_Commerce.Core.Models.Product.ProductType, E-Commerce.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
       }
     ]
   },

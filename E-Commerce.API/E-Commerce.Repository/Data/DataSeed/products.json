@@ -5,7 +5,8 @@
     "Price": 200,
     "PictureUrl": "images/products/ItalianChickenMarinade.png",
     "TypeId": 1,
-    "BrandId": 1
+    "BrandId": 1,
+    "quantity": 5
   },
   {
     "Name": "Chicken Marsala",
@@ -13,7 +14,9 @@
     "Price": 150,
     "PictureUrl": "images/products/ChickenMarsala.png",
     "TypeId": 1,
-    "BrandId": 1
+    "BrandId": 1,
+    "quantity": 10
+
   },
   {
     "Name": "Hearty Vegetable Lasagna",
@@ -21,7 +24,9 @@
     "Price": 180,
     "PictureUrl": "images/products/HeartyVegetableLasagna.png",
     "TypeId": 1,
-    "BrandId": 2
+    "BrandId": 2,
+    "quantity": 11
+
   },
   {
     "Name": "Cheesy Vegetable Lasagna",
@@ -29,7 +34,9 @@
     "Price": 300,
     "PictureUrl": "images/products/CheesyVegetableLasagna.png",
     "TypeId": 1,
-    "BrandId": 2
+    "BrandId": 2,
+    "quantity": 4
+
   },
   {
     "Name": "Pasta Salad",
@@ -37,7 +44,9 @@
     "Price": 250,
     "PictureUrl": "images/products/PastaSalad.png",
     "TypeId": 1,
-    "BrandId": 4
+    "BrandId": 4,
+    "quantity": 12
+
   },
   {
     "Name": "Italian Wedding Soup",
@@ -45,7 +54,9 @@
     "Price": 120,
     "PictureUrl": "images/products/ItalianWeddingSoup.png",
     "TypeId": 1,
-    "BrandId": 5
+    "BrandId": 5,
+    "quantity": 1
+
   },
   {
     "Name": "Vegetarian Refried Beans",
@@ -53,7 +64,9 @@
     "Price": 10,
     "PictureUrl": "images/products/VegetarianRefriedBeans.png",
     "TypeId": 2,
-    "BrandId": 2
+    "BrandId": 2,
+    "quantity": 8
+
   },
   {
     "Name": "Sweet and Spicy Sausage and Pepper Pasta",
@@ -61,7 +74,9 @@
     "Price": 8,
     "PictureUrl": "images/products/PepperPasta.png",
     "TypeId": 2,
-    "BrandId": 4
+    "BrandId": 4,
+    "quantity": 7
+
   },
   {
     "Name": "Creamy Gochujang Tortellini",
@@ -69,7 +84,9 @@
     "Price": 15,
     "PictureUrl": "images/products/CreamyGochujangTortellini.png",
     "TypeId": 2,
-    "BrandId": 4
+    "BrandId": 4,
+    "quantity": 2
+
   },
   {
     "Name": "Shrimp Egg Foo Young",
@@ -77,7 +94,9 @@
     "Price": 18,
     "PictureUrl": "images/products/ShrimpEggFooYoung.png",
     "TypeId": 4,
-    "BrandId": 3
+    "BrandId": 3,
+    "quantity": 9
+
   },
   {
     "Name": "Congee",
@@ -85,7 +104,9 @@
     "Price": 15,
     "PictureUrl": "images/products/Congee.png",
     "TypeId": 4,
-    "BrandId": 3
+    "BrandId": 3,
+    "quantity": 21
+
   },
   {
     "Name": "Haluski - Cabbage and Noodles",
@@ -93,7 +114,9 @@
     "Price": 16,
     "PictureUrl": "images/products/HaluskiNoodles.png",
     "TypeId": 4,
-    "BrandId": 4
+    "BrandId": 4,
+    "quantity": 23
+
   },
   {
     "Name": "Chicken Teriyaki and Noodles",
@@ -101,7 +124,9 @@
     "Price": 14,
     "PictureUrl": "images/products/ChickenTeriyakiNoodles.png",
     "TypeId": 4,
-    "BrandId": 4
+    "BrandId": 4,
+    "quantity": 7
+
   },
   {
     "Name": "Kulfi",
@@ -109,7 +134,9 @@
     "Price": 250,
     "PictureUrl": "images/products/Kulfi.png",
     "TypeId": 3,
-    "BrandId": 6
+    "BrandId": 6,
+    "quantity": 39
+
   },
   {
     "Name": "Crispy Vegetable Pakoras",
@@ -117,7 +144,9 @@
     "Price": 189.99,
     "PictureUrl": "images/products/CrispyVegetablePakoras.png",
     "TypeId": 3,
-    "BrandId": 2
+    "BrandId": 2,
+    "quantity": 3
+
   },
   {
     "Name": "Vegetarian Korma",
@@ -125,7 +154,9 @@
     "Price": 199.99,
     "PictureUrl": "images/products/VegetarianKorma.png",
     "TypeId": 3,
-    "BrandId": 2
+    "BrandId": 2,
+    "quantity": 5
+
   },
   {
     "Name": "Tandoori Chicken",
@@ -133,7 +164,9 @@
     "Price": 150,
     "PictureUrl": "images/products/TandooriChicken.png",
     "TypeId": 3,
-    "BrandId": 1
+    "BrandId": 1,
+    "quantity": 5
+
   },
   {
     "Name": "Indian Chicken Tikka Masala",
@@ -141,6 +174,8 @@
     "Price": 180,
     "PictureUrl": "images/products/ChickenTikkaMasala.png",
     "TypeId": 3,
-    "BrandId": 1
+    "BrandId": 1,
+    "quantity": 5
+
   }
 ]
