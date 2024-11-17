@@ -132,6 +132,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.29, )"
@@ -282,6 +286,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.29, )"

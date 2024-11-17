@@ -347,3 +347,6 @@ F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\ref
 F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.pdb
 F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\E-Commerce.API.genruntimeconfig.cache
 F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\obj\Debug\net6.0\ref\E-Commerce.API.dll
+F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\MediatR.dll
+F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\MediatR.Contracts.dll
+F:\ROUTE\Projects\Talabat-API\E-Commerce.API\E-Commerce.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

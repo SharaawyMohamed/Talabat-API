@@ -25,26 +25,11 @@ namespace E_Commerce.Services
 			var products = await unitofwork.Repository<Product, int>().GetAllWithSpecAsync(Spec);
 			return mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
 		}
-
 		public async Task<ProductToReturnDTO> GetProductAsync(int Id)
 		{
 			var Spec = new ProductWithBrandTypeSpec(Id);
 			var product = await unitofwork.Repository<Product, int>().GetByIdWithSpecAsync(Spec);
 			return mapper.Map<Product, ProductToReturnDTO>(product);
 		}
-
-		public async Task<IEnumerable<BrandTypeDTO>> GetAllCategoriesAsync()
-		{
-			var types=await unitofwork.Repository<ProductType,int>().GetAllAsync();
-			return mapper.Map<IEnumerable<ProductType>, IEnumerable<BrandTypeDTO>>(types);
-		}
-
-		public async Task<IEnumerable<BrandTypeDTO>> GetAllBrandsAsync()
-		{
-			var types=await unitofwork.Repository<ProductBrand,int>().GetAllAsync();
-			return mapper.Map<IEnumerable<ProductBrand>, IEnumerable<BrandTypeDTO>>(types);
-		}
-
-		
 	}
 }

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "k0Zfm9GS79gMbARlkkkwtHEgMpo6vMhrr+M6WzcKekJPDwIVur+6oetB/xvF4iG71GEWRsB2FIUHEhWEVIN0Sg==",
+  "dgSpecHash": "ONBmyELzUL3Ro+7VDNRGpZViAZSAHK0JoDVeOWT59Yz2LzLu68NW+YrVCmfl7EgEt10UGTeQDZ2h5szklZz1+w==",
   "success": true,
   "projectFilePath": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.Repository\\E-Commerce.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.29\\microsoft.aspnetcore.cryptography.internal.6.0.29.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.29\\microsoft.aspnetcore.cryptography.keyderivation.6.0.29.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.29\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.29.nupkg.sha512",
@@ -23,7 +25,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.29\\microsoft.extensions.identity.core.6.0.29.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.29\\microsoft.extensions.identity.stores.6.0.29.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",

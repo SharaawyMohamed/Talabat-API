@@ -59,14 +59,5 @@ namespace E_Commerce.API.Controllers
 			var MapedProduct = _mapper.Map<Product, ProductToReturnDTO>(Product);
 			return Ok(MapedProduct);
 		}
-
-		[HttpGet("Categories")]
-		public async Task<ActionResult<IReadOnlyList<ProductType>>> GetAllCategories()
-			=> Ok(await _unitOfWork.Repository<ProductType, int>().GetAllAsync());
-
-		[HttpGet("Brands")]
-		public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetAllBrands()
-			=> Ok(await _unitOfWork.Repository<ProductBrand, int>().GetAllAsync());
-
 	}
 }

@@ -9,8 +9,6 @@ namespace E_Commerce.Core.Services
 	{
 	    Task<IEnumerable<ProductToReturnDTO>> GetAllProductsAsync(ProductSpecParameter param);
 		Task<ProductToReturnDTO> GetProductAsync(int Id);
-		Task<IEnumerable<BrandTypeDTO>> GetAllCategoriesAsync();
-		Task<IEnumerable<BrandTypeDTO>> GetAllBrandsAsync();
 
 	}
 }
