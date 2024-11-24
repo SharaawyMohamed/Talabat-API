@@ -31,7 +31,7 @@ namespace E_Commerce.API.MiddelWares
 				context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
 				var Response = environment.IsDevelopment() ?
-					new ApiExceptionResponse(500, e.Message, e.StackTrace.ToString()) :
+					new ApiExceptionResponse(500, e.Message, e.StackTrace!.ToString()) :
 					new ApiExceptionResponse(500);
 
 				var Options = new  JsonSerializerOptions(){

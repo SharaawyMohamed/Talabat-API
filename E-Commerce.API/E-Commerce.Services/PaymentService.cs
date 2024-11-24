@@ -159,7 +159,7 @@ namespace E_Commerce.Services
 			unitofwork.Repository<Order, Guid>().Update(order);
 			//3. ShaveChanges
 			await unitofwork.CompleteAsync();
-			//4. Delete Customer Basket
+			//4. DeleteBrandOrCategory Customer Basket
 			await basketservice.DeleteBasketAsync(order.BasketId);
 			return mapper.Map<Order, OrderResultDto>(order);
 		}

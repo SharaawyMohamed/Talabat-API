@@ -28,8 +28,9 @@ namespace E_Commerce.API.Extentions
 			services.AddScoped<IBasketRepository, BasketRepository>();
 			services.AddScoped<IUserService, UserService>();
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
-			services.AddScoped<ICategoryService, CategoryService>();
-			services.AddScoped<IBrandService, BrandService>();
+			services.AddScoped<CategoryService>();
+			services.AddScoped<BrandService>(); 
+
 
 			// Redis Configuration
 			services.AddSingleton<IConnectionMultiplexer>(option =>

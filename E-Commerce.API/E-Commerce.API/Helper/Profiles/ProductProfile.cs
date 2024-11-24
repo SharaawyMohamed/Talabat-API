@@ -8,21 +8,21 @@ using E_Commerce.Core.Models.Product;
 
 namespace E_Commerce.API.Helper.Profiles
 {
-    public class ProductProfile : Profile
-    {
-        public ProductProfile()
-        {
-            CreateMap<ProductBrand, BrandTypeDTO>();
-            CreateMap<ProductType, BrandTypeDTO>();
+	public class ProductProfile : Profile
+	{
+		public ProductProfile()
+		{
+			CreateMap<ProductBrand, BrandTypeDTO>().ReverseMap();
+			CreateMap<ProductType, BrandTypeDTO>().ReverseMap();
 
-            CreateMap<Product, ProductToReturnDTO>()
-                .ForMember(dest=>dest.quantity,O=>O.MapFrom(src=>src.quantity))
-                .ForMember(D => D.ProductBrand, O => O.MapFrom(S => S.ProductBrand.Name))
-                .ForMember(D => D.ProductType, O => O.MapFrom(S => S.ProductType.Name))
-                .ForMember(D => D.PictureUrl, O => O.MapFrom<ProductPicturUrlResolver>());
+			CreateMap<Product, ProductToReturnDTO>()
+				.ForMember(dest => dest.quantity, O => O.MapFrom(src => src.quantity))
+				.ForMember(D => D.ProductBrand, O => O.MapFrom(S => S.ProductBrand.Name))
+				.ForMember(D => D.ProductType, O => O.MapFrom(S => S.ProductType.Name))
+				.ForMember(D => D.PictureUrl, O => O.MapFrom<ProductPicturUrlResolver>());
 
 			CreateMap<CustomerBasket, BasketDto>().ReverseMap();
 			CreateMap<BasketItem, BasketItemDto>().ReverseMap();
 		}
-    }
+	}
 }
