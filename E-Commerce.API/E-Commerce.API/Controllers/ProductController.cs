@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using E_Commerce.API.DataTransferObject_DTO;
 using E_Commerce.API.DataTransferObject_DTO.ProductDTO;
 using E_Commerce.API.Errors;
 using E_Commerce.API.Helper;
@@ -7,9 +6,6 @@ using E_Commerce.Core.Models.Product;
 using E_Commerce.Core.Repository;
 using E_Commerce.Core.Services;
 using E_Commerce.Core.Specification;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_Commerce.API.Controllers
@@ -18,12 +14,19 @@ namespace E_Commerce.API.Controllers
 	{
 		private readonly IUnitOfWork _unitOfWork;
 		private readonly IMapper _mapper;
-		public ProductController(IUnitOfWork unitOfWork, IMapper mapper)
+		private readonly IProductServices _productService;
+		public ProductController(
+			IUnitOfWork unitOfWork,
+			IMapper mapper,
+			IProductServices productService
+			)
 		{
 
 			_unitOfWork = unitOfWork;
 			_mapper = mapper;
+			_productService = productService;
 		}
+
 		[HttpGet("Products")]
 		[Cash(50)]
 		[ProducesResponseType(typeof(ProductToReturnDTO), statusCode: 200)]
@@ -58,6 +61,42 @@ namespace E_Commerce.API.Controllers
 			if (Product is null) return NotFound(new ApiResponce(404));
 			var MapedProduct = _mapper.Map<Product, ProductToReturnDTO>(Product);
 			return Ok(MapedProduct);
+		}
+
+		[HttpPost("AddProduct")]
+		public async Task<ActionResult<CreateProductDto>> AddProduct([FromForm] CreateProductDto product)
+		{
+			var brand = await _unitOfWork.Repository<ProductBrand, int>().GetByIdAsync(product.BrandId);
+			if (brand == null) return NotFound("Brand id is not valid.");
+			var category = await _unitOfWork.Repository<ProductType, int>().GetByIdAsync(product.TypeId);
+			if (category == null) return Ok("Category id is not valid.");
+
+			return Ok(await _productService.AddProductAsync(product));
+
+		}
+
+		[HttpDelete("DeleteProduct")]
+		public async Task<ActionResult<ProductToReturnDTO>> DeleteProduct(int Id)
+		{
+			var product = await _unitOfWork.Repository<Product, int>().GetByIdAsync(Id);
+			if (product == null)
+			{
+				return NotFound("In valid product Id.");
+			}
+			var response = await _productService.DeleteProductAsync(Id);
+			return Ok(response ? "Product deleted successfully." : "Internal server error.");
+		}
+
+		[HttpPut("UpdateProduct")]
+		public async Task<ActionResult<ProductToReturnDTO>> UpdateProduct([FromForm] UpdateProductDto productDto)
+		{
+			var product = await _unitOfWork.Repository<Product, int>().GetByIdAsync(productDto.Id);
+			if (product == null)
+			{
+				return NotFound("In valid product Id.");
+			}
+
+			return Ok(_productService.UpdateProductAsync(productDto));
 		}
 	}
 }

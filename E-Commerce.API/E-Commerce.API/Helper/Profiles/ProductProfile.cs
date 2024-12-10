@@ -12,8 +12,11 @@ namespace E_Commerce.API.Helper.Profiles
 	{
 		public ProductProfile()
 		{
-			CreateMap<ProductBrand, BrandTypeDTO>().ReverseMap();
-			CreateMap<ProductType, BrandTypeDTO>().ReverseMap();
+			CreateMap<ProductBrand, BrandTypeDTO>()
+				.ForMember(dest => dest.ImageUrl, option => option.MapFrom<BrandResolver>());
+
+			CreateMap<ProductType, BrandTypeDTO>()
+				.ForMember(dest => dest.ImageUrl, option => option.MapFrom<CategoryResolver>());
 
 			CreateMap<Product, ProductToReturnDTO>()
 				.ForMember(dest => dest.quantity, O => O.MapFrom(src => src.quantity))

@@ -28,6 +28,7 @@ namespace E_Commerce.API.Extentions
 			services.AddScoped<IBasketRepository, BasketRepository>();
 			services.AddScoped<IUserService, UserService>();
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
+			services.AddScoped<IMedia, Media>();
 			services.AddScoped<CategoryService>();
 			services.AddScoped<BrandService>(); 
 

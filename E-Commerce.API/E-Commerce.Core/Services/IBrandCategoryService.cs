@@ -11,9 +11,9 @@ namespace E_Commerce.Core.Services
 	{
 		Task<IEnumerable<BrandTypeDTO>>? GetAllBrandsOrCategoriesAsync();
 		Task<BrandTypeDTO>? GetBrandOrCategoryByIdAsync(int Id);
-		Task<bool> UpdateBrandOrCategory(BrandTypeDTO entity);
-		Task<bool> DeleteBrandOrCategory(BrandTypeDTO entity);
-		Task<bool> AddBrandOrCategory(BrandTypeDTO entity);
+		Task<bool> UpdateBrandOrCategory(int Id,CreateBrandTypeDto entity);
+		Task<bool> DeleteBrandOrCategory(int Id);
+		Task<bool> AddBrandOrCategory(CreateBrandTypeDto entity);
 
 	}
 }

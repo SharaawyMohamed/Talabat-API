@@ -27,7 +27,7 @@ namespace E_Commerce.API.Controllers
 		[HttpDelete("DeleteCategory/{Id}")]
 		public async Task<ActionResult<ApiResponce>> DeleteCategory(int Id)
 		{
-			var response = await _categoryService.DeleteBrandOrCategory(new BrandTypeDTO { Id = Id });
+			var response = await _categoryService.DeleteBrandOrCategory(Id);
 			if (!response) return new ApiResponce(StatusCodes.Status400BadRequest, "Bad request.");
 
 			return Ok(new ApiResponce(200, "Category has been deleted successfully."));
@@ -45,17 +45,17 @@ namespace E_Commerce.API.Controllers
 		}
 
 		[HttpPut("UpdateCategory")]
-		public async Task<ActionResult<BrandTypeDTO>> UpdateCategory(BrandTypeDTO category)
+		public async Task<ActionResult<BrandTypeDTO>> UpdateCategory([FromRoute] int Id, [FromForm] CreateBrandTypeDto category)
 		{
-			var updateState = await _categoryService.UpdateBrandOrCategory(category);
-			return !updateState ? NotFound(new ApiResponce(StatusCodes.Status404NotFound, $"Invalid category id {category.Id}"))
+			var updateState = await _categoryService.UpdateBrandOrCategory(Id, category);
+			return !updateState ? NotFound(new ApiResponce(StatusCodes.Status404NotFound, $"Invalid category id {Id}"))
 				: Ok(new ApiResponce(StatusCodes.Status200OK, "Category updated successfully."));
 		}
 
 		[HttpPost("AddCategory")]
-		public async Task<ActionResult> CreateCategory(string categoryName)
+		public async Task<ActionResult> CreateCategory(CreateBrandTypeDto category)
 		{
-			var categoryState = await _categoryService.AddBrandOrCategory(new BrandTypeDTO { Name = categoryName });
+			var categoryState = await _categoryService.AddBrandOrCategory(category);
 			return categoryState ? Ok(new ApiResponce(StatusCodes.Status200OK, "Category created successfully."))
 				: BadRequest(new ApiResponce(StatusCodes.Status400BadRequest, "Bad request"));
 		}

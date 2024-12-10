@@ -38,9 +38,9 @@ namespace E_Commerce.API.Controllers
 		}
 
 		[HttpPut("UpdateBrand")]
-		public async Task<ActionResult> UpdateBrand(BrandTypeDTO brand)
+		public async Task<ActionResult> UpdateBrand([FromRoute] int Id,[FromForm]CreateBrandTypeDto brand)
 		{
-			var brandState = await _brandService.UpdateBrandOrCategory(brand);
+			var brandState = await _brandService.UpdateBrandOrCategory(Id, brand);
 
 			return brandState ? Ok(new ApiResponce(StatusCodes.Status200OK, "Brand updated successfully.")) :
 				BadRequest(new ApiResponce(StatusCodes.Status400BadRequest, "Bad request."));
@@ -49,16 +49,17 @@ namespace E_Commerce.API.Controllers
 		[HttpDelete("DeleteBrand")]
 		public async Task<ActionResult> DeleteBrand(int Id)
 		{
-			var brandState = await _brandService.DeleteBrandOrCategory(new BrandTypeDTO { Id = Id })!;
+			var brandState = await _brandService.DeleteBrandOrCategory(Id);
 			return brandState ? Ok(new ApiResponce(StatusCodes.Status200OK, "Brand deleted successfully."))
 				: BadRequest(new ApiResponce(StatusCodes.Status400BadRequest, "Bad request"));
 		}
 
 		[HttpPost("AddBrand")]
-		public async Task<ActionResult> AddBrand(string brandName)
+		public async Task<ActionResult> AddBrand(CreateBrandTypeDto brand)
 		{
-			var brandState = await _brandService.AddBrandOrCategory(new BrandTypeDTO { Name = brandName });
-			return brandState ? Ok(new ApiResponce(StatusCodes.Status200OK, "Brand created successfully.")) : BadRequest(new ApiResponce(StatusCodes.Status400BadRequest, "Bad request!"));
+			var brandState = await _brandService.AddBrandOrCategory(brand);
+			return brandState ? Ok(new ApiResponce(StatusCodes.Status200OK, "Brand created successfully."))
+				: BadRequest(new ApiResponce(StatusCodes.Status400BadRequest, "Bad request!"));
 		}
 	}
 }

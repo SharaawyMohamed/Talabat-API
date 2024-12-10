@@ -9,5 +9,6 @@ namespace E_Commerce.Core.Models.Product
     public class ProductType : BaseEntity<int>
     {
         public string Name { get; set; }
+        public string ImageUrl { get; set; }
     }
 }
