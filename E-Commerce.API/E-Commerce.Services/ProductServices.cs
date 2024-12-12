@@ -16,14 +16,16 @@ namespace E_Commerce.Services
 		private readonly IMedia _media;
 		private readonly IMapper mapper;
 
-		public ProductServices(IUnitOfWork _unitofwork, IMapper _mapper)
+		public ProductServices(IUnitOfWork _unitofwork, IMapper _mapper, IMedia media)
 		{
 			unitofwork = _unitofwork;
+			_media = media;
 			mapper = _mapper;
 		}
 
 		public async Task<ProductToReturnDTO> AddProductAsync(CreateProductDto productDto)
 		{
+
 			var product = new Product
 			{
 				Name = productDto.Name,
@@ -45,9 +47,13 @@ namespace E_Commerce.Services
 		public async Task<bool> DeleteProductAsync(int Id)
 		{
 			var product = await unitofwork.Repository<Product, int>().GetByIdAsync(Id);
+			if (product.PictureUrl != null)
+			{
+				_media.DeleteFile("products", product.PictureUrl.Split('/')[^1]);
+			}
 			unitofwork.Repository<Product, int>().Delete(product);
-			await unitofwork.CompleteAsync();
-			return true;
+			var state = await unitofwork.CompleteAsync();
+			return state > 0;
 		}
 
 		public async Task<IEnumerable<ProductToReturnDTO>> GetAllProductsAsync(ProductSpecParameter param)
@@ -56,7 +62,7 @@ namespace E_Commerce.Services
 			var products = await unitofwork.Repository<Product, int>().GetAllWithSpecAsync(Spec);
 			return mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDTO>>(products);
 		}
-		
+
 		public async Task<ProductToReturnDTO> GetProductAsync(int Id)
 		{
 			var Spec = new ProductWithBrandTypeSpec(Id);
@@ -85,7 +91,11 @@ namespace E_Commerce.Services
 
 			unitofwork.Repository<Product, int>().Update(product);
 			await unitofwork.CompleteAsync();
-			return mapper.Map<ProductToReturnDTO>(product);
+
+			var spec = new ProductWithBrandTypeSpec(product.Id);
+			var productWithRelatedData = await unitofwork.Repository<Product, int>().GetByIdWithSpecAsync(spec);
+
+			return mapper.Map<ProductToReturnDTO>(productWithRelatedData);
 		}
 	}
 }

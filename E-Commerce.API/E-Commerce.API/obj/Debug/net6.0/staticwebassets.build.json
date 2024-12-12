@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SY/CBaRR8MRODv8fCfzBBO9zw4RZkrK634bnsj8EIQA=",
+  "Hash": "Mh0aGjCaQxB/RBtGwvRbdh233bVhxLUZwrE08G2qss0=",
   "Source": "E-Commerce.API",
   "BasePath": "_content/E-Commerce.API",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.API\\wwwroot\\images\\products\\25141945-6420-4d50-8aab-8596fa2c6193burger.jpeg",
+      "SourceId": "E-Commerce.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.API\\wwwroot\\",
+      "BasePath": "_content/E-Commerce.API",
+      "RelativePath": "images/products/25141945-6420-4d50-8aab-8596fa2c6193burger.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\25141945-6420-4d50-8aab-8596fa2c6193burger.jpeg"
+    },
     {
       "Identity": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.API\\wwwroot\\images\\products\\CheesyVegetableLasagna.png",
       "SourceId": "E-Commerce.API",

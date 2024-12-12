@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.API\\wwwroot\\images\\products\\25141945-6420-4d50-8aab-8596fa2c6193burger.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\25141945-6420-4d50-8aab-8596fa2c6193burger.jpeg"
+    },
+    {
       "Id": "F:\\ROUTE\\Projects\\Talabat-API\\E-Commerce.API\\E-Commerce.API\\wwwroot\\images\\products\\CheesyVegetableLasagna.png",
       "PackagePath": "staticwebassets\\images\\products\\CheesyVegetableLasagna.png"
     },

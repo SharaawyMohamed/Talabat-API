@@ -96,7 +96,7 @@ namespace E_Commerce.API.Controllers
 				return NotFound("In valid product Id.");
 			}
 
-			return Ok(_productService.UpdateProductAsync(productDto));
+			return Ok(await _productService.UpdateProductAsync(productDto));
 		}
 	}
 }
