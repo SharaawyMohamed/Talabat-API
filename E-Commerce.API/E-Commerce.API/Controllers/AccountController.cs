@@ -1,4 +1,6 @@
 ﻿using E_Commerce.API.Errors;
+using E_Commerce.API.Helper;
+using E_Commerce.API.Validations;
 using E_Commerce.Core.JwtToken;
 using E_Commerce.Core.Models.Identity;
 using E_Commerce.Services.UserServices;
@@ -11,7 +13,7 @@ namespace E_Commerce.API.Controllers
 
 	public class AccountController : APIBaseController
 	{
-		private readonly IUserService userservice;
+		//private readonly IUserService userservice;
 		private readonly UserManager<ApplicationUser> usermanager;
 		private readonly SignInManager<ApplicationUser> signInmanager;
 		private readonly ITokenService tokenservice;
@@ -29,6 +31,19 @@ namespace E_Commerce.API.Controllers
 		[HttpPost("Login")]
 		public async Task<ActionResult<UserDto>> Login(LoginDto input)
 		{
+			var validator = new LoginValidation();
+			var validatorResult = await validator.ValidateAsync(input);
+			if (!validatorResult.IsValid)
+			{
+				var res= validatorResult.Errors
+					.Select(error => new Error
+					{
+						Property = error.PropertyName,
+						ErrorMessage = error.ErrorMessage
+					}).ToList();
+			// I want to return this list of errors ?
+			}
+
 			var user = await usermanager.FindByEmailAsync(input.Email);
 			if (user is null) return Unauthorized(new ApiResponce(401, "Incorrect Email"));
 
