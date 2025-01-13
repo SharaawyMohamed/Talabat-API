@@ -13,7 +13,7 @@ namespace E_Commerce.API.Controllers
 
 	public class AccountController : APIBaseController
 	{
-		//private readonly IUserService userservice;
+		private readonly IUserService userservice;
 		private readonly UserManager<ApplicationUser> usermanager;
 		private readonly SignInManager<ApplicationUser> signInmanager;
 		private readonly ITokenService tokenservice;

@@ -629,7 +629,10 @@
           "StackExchange.Redis": "2.7.33"
         },
         "runtime": {
-          "E-Commerce.Core.dll": {}
+          "E-Commerce.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
